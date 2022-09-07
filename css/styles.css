@@ -1,0 +1,116 @@
+/* 
+logo second text color #000000
+main text color #212121 
+secondary text color #757575
+third text color #FFFFFF
+active text color #2196F3
+background color #2F303A
+*/
+:root {
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --third-text-color: #ffffff;
+  --active-text-color: #2196f3;
+  --main-background-color: #ffffff;
+  --background-color: #2f303a;
+}
+body {
+  font-family: Roboto, Raleway, sans-serif;
+  color: var(--main-text-color);
+  background-color: var(--main-background-color);
+  width: 1600px;
+  height: 2346px;
+}
+
+.logo {
+  font-family: Raleway;
+  color: #000000;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  /* line-height: 31px; */
+}
+.logo-first-part {
+  color: var(--active-text-color);
+}
+.main-nav-item {
+  color: var(--main-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.main-nav-item:hover,
+.main-nav-item:focus {
+  color: var(--active-text-color);
+}
+
+.contact-me {
+  color: var(--secondary-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+.contact-me:hover,
+.contact-me:focus {
+  color: var(--active-text-color);
+}
+
+.hero {
+  width: 1600px;
+  height: 600px;
+  background-color: var(--background-color);
+}
+.headline {
+  color: var(--third-text-color);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.service {
+  cursor: pointer;
+  color: var(--third-text-color);
+  background-color: var(--active-text-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+.benefit-item {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.benefit-item-discription {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.works {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
