@@ -7,6 +7,8 @@ active text color #2196F3
 background color #2F303A
 */
 :root {
+  --first-logo-color: #000000;
+  --second-logo-color: #ffffff;
   --main-text-color: #212121;
   --secondary-text-color: #757575;
   --third-text-color: #ffffff;
@@ -28,7 +30,7 @@ body {
 
 .logo {
   font-family: Raleway;
-  color: #000000;
+  color: var(--active-text-color);
   text-decoration: none;
   font-style: normal;
   font-weight: 700;
@@ -37,8 +39,8 @@ body {
   /* line-height: 31px; */
 }
 
-.logo-first-part {
-  color: var(--active-text-color);
+.logo-second-part-one {
+  color: var(--first-logo-color);
 }
 
 .main-nav-item {
@@ -162,4 +164,24 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+}
+
+/* footer styles */
+.footer {
+  background-color: var(--background-color);
+}
+.logo-sec {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--active-text-color);
+  text-decoration: none;
+}
+.logo-second-part-two {
+  color: var(--second-logo-color);
+}
+.home {
 }
