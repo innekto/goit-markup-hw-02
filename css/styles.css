@@ -16,6 +16,7 @@ background color #2F303A
   --main-background-color: #ffffff;
   --background-color: #2f303a;
   --secondary-background-color: #f5f4fa;
+  --last-text-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -184,4 +185,56 @@ body {
   color: var(--second-logo-color);
 }
 .home {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--third-text-color);
+}
+.contact-me-to {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--last-text-color);
+  text-decoration: none;
+}
+.contact-me-to:hover,
+.contact-me-to:focus {
+  color: var(--active-text-color);
+}
+/* portfolio styles */
+
+.port-button {
+  color: var(--main-text-color);
+  background-color: var(--secondary-background-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.port-button:hover,
+.port-button:focus {
+  background-color: var(--active-text-color);
+  color: var(--second-logo-color);
+}
+.example {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+}
+.example-name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
