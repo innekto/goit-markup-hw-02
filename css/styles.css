@@ -46,8 +46,8 @@ body {
 
 .main-nav-item {
   color: var(--main-text-color);
-  font-style: normal;
   font-weight: 500;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.14;
   text-decoration: none;
@@ -61,10 +61,10 @@ body {
 
 .contact-me {
   color: var(--secondary-text-color);
-  font-style: normal;
   font-weight: 500;
+  font-style: normal;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   text-decoration: none;
   letter-spacing: 0.02em;
 }
@@ -88,7 +88,7 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  /* text-align: center; */
+  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -107,17 +107,16 @@ body {
 
 .benefit-item {
   font-style: normal;
-  font-weight: 700;
   font-size: 14px;
-  line-height: 11.14;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .benefit-item-discription {
-  color: var(--secondary-text-color);
   font-style: normal;
   font-weight: 400;
+  color: var(--secondary-text-color);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -128,7 +127,6 @@ body {
 } */
 .what-to-do {
   font-style: normal;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -141,7 +139,6 @@ body {
 
 .our-team {
   font-style: normal;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -150,7 +147,6 @@ body {
 
 .team-member {
   font-style: normal;
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -210,8 +206,8 @@ body {
 .port-button {
   color: var(--main-text-color);
   background-color: var(--secondary-background-color);
-  font-style: normal;
   font-weight: 500;
+  font-style: normal;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
@@ -233,7 +229,6 @@ body {
 }
 .example {
   font-style: normal;
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
