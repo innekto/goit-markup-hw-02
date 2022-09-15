@@ -25,6 +25,7 @@ body {
 ul {
   list-style: none;
 }
+
 /* header styles */
 
 .logo {
@@ -58,6 +59,9 @@ ul {
   color: var(--active-text-color);
 }
 
+.current {
+  color:var(--active-text-color);
+}
 .contact-me {
   color: var(--secondary-text-color);
   font-weight: 500;
