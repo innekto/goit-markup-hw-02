@@ -223,6 +223,15 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 }
+.visually-hidden {
+ overflow: hidden;
+ position: absolute;
+ white-space: nowrap;
+ clip: rect(0 0 0 0);
+ clip-path: inset(50%);
+ height: 1px;
+ width: 1px;
+} 
 .example {
   font-size: 18px;
   line-height: 2;
